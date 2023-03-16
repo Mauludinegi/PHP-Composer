@@ -1,0 +1,27 @@
+{
+    "name": "gie/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Programmer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mauludin Egi",
+            "email": "mauludinegi@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Mauludinegi/Belajar-PHP-Composer-Hello.git"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "programmergie/hello": "2.0.0",
+        "monolog/monolog": "2.2.0"
+    }
+}
